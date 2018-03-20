@@ -191,7 +191,7 @@ function prepare_branch() {
     local tagDir=$BASEDIR/gitlab-$tag
 
     rm -rf $BRANCH_DIR
-    git clone https://gitlab.com/xhang/gitlab.git $tagDir
+    git clone https://gitlab.com/flydragon/gitlab.git $tagDir
     cd $tagDir || return 1
     git checkout $branch
 }
