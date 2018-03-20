@@ -13,7 +13,7 @@ ENV LANG=en_US.UTF-8 LANGUAGE=en_US:en LC_ALL=en_US.UTF-8
 ENV TZ=Asia/Shanghai
 
 ENV GITLAB_DIR=/opt/gitlab/embedded/service/gitlab-rails
-ENV GITLAB_ZH_GIT=https://gitlab.com/xhang/gitlab.git
+ENV GITLAB_ZH_GIT=https://gitlab.com/flydragon/gitlab.git
 ENV SOURCE_BRANCH={VERSION}
 ENV TARGET_BRANCH={BRANCH}
 
