@@ -1,5 +1,6 @@
 FROM gitlab/gitlab-ce:{TAG}
 
+
 ENV GITLAB_VERSION={BRANCH}
 
 RUN set -xe \
